@@ -1,7 +1,6 @@
-package resources.contracts
-import org.springframework.cloud.contract.spec.Contract
+package contracts.consumer-contract
 
-Contract.make {
+org.springframework.cloud.contract.spec.Contract.make {
     description "should return even when number input is even - tests"
     request {
         method GET()
