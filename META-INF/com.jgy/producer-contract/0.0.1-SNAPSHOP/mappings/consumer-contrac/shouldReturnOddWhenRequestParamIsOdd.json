@@ -1,5 +1,4 @@
 {
-    "id" : "a44c9d95-6be6-4415-a428-7e1c2b5b541d",
     "request" : {
         "urlPath" : "/validate/prime-number",
         "method" : "GET",
@@ -11,8 +10,6 @@
     },
     "response" : {
         "status" : 200,
-        "body" : "Odd",
-        "transformers" : [ "response-template" ]
-    },
-    "uuid" : "a44c9d95-6be6-4415-a428-7e1c2b5b541d"
+        "body" : "Odd"
+    }
 }
